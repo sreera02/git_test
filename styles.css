@@ -1,0 +1,53 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: normal;
+    gap: 5px;
+
+}
+
+.sriman {
+    outline: 3px solid gold;
+    background-color: aliceblue;
+}
+
+.god {
+    
+    background-color: aqua;
+}
+
+#hari {
+    outline: 10px solid gold;
+}
+
+#krishna {
+    outline: 8px solid goldenrod;
+}
+
+.life {
+    background-color: yellow;
+    outline: 3px solid silver;
+}
+
+.flex-container .one {
+    flex: 0 0 10px;
+    order: 1;
+}
+
+.flex-container .two {
+    flex: 0 0 8px;
+    order: 3;
+}
+
+.flex-container .three {
+    flex: 0 0 13px;
+    order: 2;
+    
+}
+
+.flex-container .four {
+    flex: 0 0 25px;
+    order: 4;
+}
