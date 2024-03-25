@@ -1,13 +1,16 @@
 .flex-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     align-content: normal;
-    gap: 5px;
-
 }
 
+.ome {
+    outline: 1px solid black;
+    order: 1;
+}
 .sriman {
     outline: 3px solid gold;
     background-color: aliceblue;
@@ -32,22 +35,23 @@
 }
 
 .flex-container .one {
-    flex: 0 0 10px;
-    order: 1;
+    flex: 0 0 12px;
+    order: 2;
 }
 
 .flex-container .two {
     flex: 0 0 8px;
-    order: 3;
+    order: 4;
+    
 }
 
 .flex-container .three {
-    flex: 0 0 13px;
-    order: 2;
+    flex: 0 0 320px;
+    order: 3;
     
 }
 
 .flex-container .four {
-    flex: 0 0 25px;
-    order: 4;
+    flex: 0 0 12px;
+    order: 5;
 }
