@@ -12,8 +12,11 @@
     order: 1;
 }
 .sriman {
-    outline: 3px solid gold;
+    outline: 2px solid gold;
+    border-radius: 260%;
     background-color: aliceblue;
+    font-family: 'Tangerine', serif;
+    font-size: 160%;
 }
 
 .god {
@@ -35,7 +38,7 @@
 }
 
 .flex-container .one {
-    flex: 0 0 12px;
+    flex: 0 0 70px;
     order: 2;
 }
 
