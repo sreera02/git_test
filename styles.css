@@ -5,25 +5,53 @@
     justify-content: space-between;
     align-items: flex-start;
     align-content: normal;
+    padding-left: 8px;
+    padding-top: 0px;
+    vertical-align: top;
+    background-image: url("images/back.jpg");
+    
 }
 
 .ome {
     outline: 1px solid black;
+    display: inline-block;
+    margin-right: 300px;
     order: 1;
+    padding-left: 8px;
 }
 .sriman {
     outline: 2px solid gold;
     border-radius: 260%;
-    background-color: aliceblue;
+    background-color: black;
     font-family: 'Tangerine', serif;
-    font-size: 160%;
+    font-size: 320%;
+    color: goldenrod;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    padding-right:15px;
 }
 
-.god {
-    
-    background-color: aqua;
+.charama {
+    position: absolute;
+    top: 150px;
+    left: 390px;
+    text-align: left;
 }
 
+.lotuspos {
+    position: absolute;
+    top: 55px;
+    right: 30px;
+}
+
+#chsize {
+    font-size: 300%;
+
+}
 #hari {
     outline: 10px solid gold;
 }
@@ -33,28 +61,70 @@
 }
 
 .life {
-    background-color: yellow;
     outline: 3px solid silver;
+    color: goldenrod;
+    background-color: black;
 }
 
-.flex-container .one {
+.flash {
+    font-family: 'Tangerine', serif;
+    font-size: 140%;
+    flex: 0 0 0px;
+    margin-top: -25px;
+    margin-bottom: -26px;
+    order: 6;
+}
+
+.flash .govind {
+    margin-bottom: -28px;
+    margin-right: 69px;
+    background-color: black;
+    color: goldenrod;
+}
+
+.where {
+    color:goldenrod;
+    background-color: black;
+    margin-right: 340px;
+}
+
+.flex-container .one div {
     flex: 0 0 70px;
     order: 2;
 }
 
-.flex-container .two {
-    flex: 0 0 8px;
-    order: 4;
-    
+* a {
+    float: auto;
+    color: goldenrod;
+    background-color: black;
+    font-size: 110%;    
 }
 
-.flex-container .three {
-    flex: 0 0 320px;
+.two {
+    order: 4;
+    margin-top: 10px;
+}
+
+.flex-container .three div {
+    flex: 0 0 8px;
     order: 3;
+
     
 }
 
 .flex-container .four {
     flex: 0 0 12px;
     order: 5;
+    margin-bottom: 7px;
+}
+
+.flex-container .maps {
+    font-family: 'Tangerine', serif;
+    font-size: 150%;
+    order: 7;
+    margin-top: 15px;
+}
+
+.flex-container .maps .where {
+    margin-bottom: 4px;
 }
