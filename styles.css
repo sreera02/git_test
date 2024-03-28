@@ -1,3 +1,7 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -5,19 +9,40 @@
     justify-content: space-between;
     align-items: flex-start;
     align-content: normal;
-    padding-left: 8px;
-    padding-top: 0px;
+    padding-left: 14px;
+    padding-top: -15px;
     vertical-align: top;
     background-image: url("images/back.jpg");
+    overflow: auto;
     
 }
 
-.ome {
-    outline: 1px solid black;
-    display: inline-block;
-    margin-right: 300px;
-    order: 1;
-    padding-left: 8px;
+.ome{
+    display: inline;
+}
+
+.ome1 {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.ome2 {
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+.ome3 {
+    position: absolute;
+    top: 0;
+    left: 600px;
+}
+
+.ome4 {
+    position: absolute;
+    top: 0;
+    left: 900px;
 }
 .sriman {
     outline: 2px solid gold;
@@ -26,30 +51,35 @@
     font-family: 'Tangerine', serif;
     font-size: 320%;
     color: goldenrod;
-    text-align: center;
-    margin-left: 300px;
-    margin-top: 30px;
     padding-top:10px;
     padding-bottom:10px;
     padding-left:15px;
     padding-right:15px;
+    position:absolute;
+    top:32px;
+    left:360px;
 }
 
-.charama {
+.charama{
     position: absolute;
-    top: 150px;
-    left: 390px;
-    text-align: left;
+    top:140px;
+    left: 360px;
+}
+
+.charama2 {
+    position: absolute;
+    left: 430px;
+    top: 620px;
 }
 
 .lotuspos {
-    position: absolute;
-    top: 55px;
-    right: 30px;
+    position:absolute;
+    top: 30px;
+    left: 930px;  
 }
 
-#chsize {
-    font-size: 300%;
+.flex-container #chsize {
+    font-size: 240%;
 
 }
 #hari {
@@ -58,6 +88,7 @@
 
 #krishna {
     outline: 8px solid goldenrod;
+    margin-top: 60px;
 }
 
 .life {
@@ -108,8 +139,6 @@
 .flex-container .three div {
     flex: 0 0 8px;
     order: 3;
-
-    
 }
 
 .flex-container .four {
