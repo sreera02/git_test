@@ -3,13 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <title>My First Webpage</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css')}}">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     </head>
     <body>
         <div class="flex-container">
             <div class="ome">
-                <a class="ome1" href="./pages/about.html">About</a>
+                <a class="ome1" href="{{ url_for('about')}}">About</a>
                 <a class="ome2" href="">Mantras</a>
                 <a class="ome3" href="">Birth</a>
                 <a class="ome4" href="">Liberation</a>
@@ -49,13 +49,13 @@
                 </h3>
             </div>
             <div class="lotuspos">
-                <img src="images/lotus.jpg" alignment="right" height="240" width="440">
+                <img src="{{ url_for('static', filename='images/lotus.jpg')}}" alt="lotus" alignment="right" height="240" width="440">
             </div>
             <div class="two">
                 <a href="https://www.youtube.com/watch?v=fNxR8Mfry0k" target="_blank" rel="noopener noreferrer">Hari hi Om, TAT SAT!</a>
             </div>
             <div class="three">
-                <img id="krishna" src="images/k2.jpg" alignment="right" alt="My Cute Krishna" height="310" width="310">
+                <img id="krishna" src="{{ url_for('static', filename='images/k2.jpg')}}" alignment="right" alt="My Cute Krishna" height="310" width="310">
             </div>
             <div class="four">
                 <ul>
@@ -66,7 +66,7 @@
             </div>
             <div class="flash">
                 <h2 class="govind">Govinda Mantra for BHAKT</h2>
-                <video src="GOVIND.mp4" width="400" height="300" preload controls loop></video>
+                <video src="{{ url_for('static', filename='images/GOVIND.mp4')}}" width="400" height="300" preload controls loop></video>
             </div>
             <div class="maps">
                 <h2 class="where">Where Was Sri Krishna?</h2>
