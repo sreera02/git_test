@@ -25,12 +25,14 @@ body {
     position: absolute;
     top: 0;
     left: 10px;
+    z-index: 20;
 }
 
 .ome2 {
     position: absolute;
     top: 0;
     left: 300px;
+    z-index: 20;
 }
 
 .ome3 {
@@ -129,6 +131,7 @@ body {
 }
 .damodaram {
     z-index: 20;
+    order: 2.5;
 }
 .flex-container .one div {
     flex: 0 0 70px;
@@ -145,6 +148,7 @@ body {
 .two {
     order: 4;
     margin-top: 10px;
+    z-index: 20;
 }
 
 .flex-container .three div {
@@ -162,7 +166,7 @@ body {
     font-family: 'Tangerine', serif;
     font-size: 150%;
     order: 7;
-    margin-top: 15px;
+    margin-top: 1px;
 }
 
 .flex-container .maps .where {
