@@ -1,7 +1,6 @@
 # coding:utf-8
 from flask import Flask, render_template
 import os
-from markupsafe import Markup
 
 TEMPLATES_DIR = os.path.abspath("./templates")
 STATIC_DIR = os.path.abspath("./static")
